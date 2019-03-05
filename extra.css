@@ -1,0 +1,259 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto", sans-serif;
+  /*background-color:rgb(230, 230, 230);*/
+
+}
+hr{
+  border: .3px solid grey;
+  opacity:.1;
+  margin: auto;
+}
+body{
+  background-color:rgb(242, 242, 242);
+
+}
+* {
+  box-sizing:border-box;
+}
+.full{
+  max-width:1300px;
+  margin:auto;
+}
+.left{
+  width:32%;
+  margin: .75%;                  /* margin is given in percentages so that it will not affect the responsiveness */
+  display:block;
+  background-color:white;
+  float:left;
+  box-shadow: 3px 3px 7px 5px rgb(230, 230, 230);
+  word-wrap: break-word;
+}
+/*
+.right{
+  width:65%;
+  margin:.75%;
+  display:block;
+  background-color:white;
+  float:left;
+ box-shadow: 3px 3px 7px 5px rgb(230, 230, 230);
+}
+*/
+/* all these content are the content of the right side accordingly for it */
+.first,.achieve,.project,.course{
+  width:65%;
+  margin:.75%;
+  display:block;
+  background-color:white;
+  float:left;
+ box-shadow: 3px 3px 7px 5px rgb(230, 230, 230);
+}
+.first{
+  padding:10px;
+}
+.leftimage>img{
+  margin:0;
+  padding:0;
+}
+
+
+/* moto just below the image heading */
+.moto>h2{
+  margin:2px;
+  font-size:35px;
+  opacity:.8;
+  padding:0px 10px;
+}
+
+/* moto paragraph */
+.moto>p{
+  font-size:18px;
+  opacity:.7;
+  padding:0px 10px;
+  line-height:1.5;
+}
+
+/* about section below image */
+.about{
+  margin:10px;
+
+}
+.about>p{
+  padding:5px;
+  color:grey;
+
+}
+.about>p>i,.about>p>a>i{
+  font-size:20px;
+  margin: 0px 15px 0px 10px ;
+  color:rgb(0,153,153);
+  opacity:.9;
+}
+.about>p>a{
+  padding:5px 0px 5px 0px;
+  display:block;
+  text-decoration:none;
+  color:grey;
+}
+.about>p>a:hover{
+  background-color:rgb(242, 242, 242);
+}
+
+
+   /* profile section */
+.profile{
+  margin:10px;
+}
+.profile>h3{
+  opacity:.7;
+}
+.profile>ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+.profile>ul>li>a{
+  padding:15px 0px 12px 0px;
+  display:block;
+  text-decoration:none;
+  color:grey;
+}
+.profile>ul>li>a:hover{
+  background-color:rgb(242, 242, 242);
+}
+.profile>ul>li>a>i{
+  font-size:20px;
+  margin: 0px 15px 0px 10px ;
+  color:rgb(0,153,153);
+  opacity:.9;
+}
+
+/*  skills section */
+.skills{
+  margin:0px;
+}
+.skills>h3{
+  opacity:.7;
+}
+.skills>h3>i{                               /* icons of skills styling */
+  margin: 0px 5px 0px 5px ;
+  color:rgb(0,153,153);
+  opacity:.9;
+
+}
+.skills>p{
+  font-size: 18px;
+  margin:5px;
+  color:rgb(77, 77, 77);
+  line-height: 1.5;
+}
+
+/* styling of individual skills */
+.some {
+  list-style-type:none;
+  margin:0;
+  padding:5px;;
+
+}
+.some li{
+    background-color:rgb(0,153,153);
+    border-radius:15px;
+    color:white;
+    margin:10px;
+    padding:5px 10px ;
+    display:inline-block;
+
+  }
+
+
+
+
+/* now style the right side of the pade */
+
+/* style first  class*/
+.first>h2>i , .project>h2>i, .course>h2>i, .achieve>h2>i{
+  margin: 0px 10px 0px 0px ;
+  color:rgb(0,153,153);
+  opacity:.9;
+}
+.first>h2, .project>h2, .course>h2, .achieve>h2{
+  font-size:35px;
+  margin:5px;;
+  opacity:.6;
+}
+.first, .project, .course, .achieve{
+  padding:20px;
+}
+.edu{
+  padding:5px 20px;
+}
+.edu>h3{
+  opacity:.7;
+}
+.edu>p{
+  font-size:16px;
+  opacity:.8;
+}
+.edu>h4{
+  color:rgb(0,153,153);
+  opacity:.9;
+  letter-spacing: 1.5px;;
+}
+.edu>h4>i{
+  margin: 0px 10px 0px 0px ;
+}
+
+/* separate terms in the project div styling */
+.edu>h4>a{
+  text-decoration:none;
+  color:rgb(0,153,153);
+  opacity:.9;
+  padding: 10px ;
+}
+.edu>h4>a:hover{
+    background-color:rgb(242, 242, 242);
+}
+.edu>h4>a>i{
+  margin: 0px 15px 0px 5px;
+}
+.edu>p{
+  font-size: 18px;
+  opacity:.7;
+  letter-spacing: 1.1px;
+}
+
+.footer{
+  background-color:rgb(0,153,153);
+    text-align: center;
+  width:97%;
+  margin:auto;
+  height:150px;
+  color:white;
+  display:block;
+}
+.footer>p{
+  margin-top:10px;
+  padding-top:25px;
+  font-size: 20px;
+}
+.social{
+  font-size: 25px;
+}
+.social>a{
+  test-decoration:none;
+  color:white;
+  margin:0px 5px 0px 5px;
+}
+.social>a:hover{
+  opacity:.8;
+}
+
+
+
+
+
+
+/*
+.store{
+  color:rgb(0, 179, 179)
+}
+*/
